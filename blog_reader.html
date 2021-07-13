@@ -1,0 +1,152 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <title>Blog Reader</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.ico"/>
+    <!-- browsers issues -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q=="
+        crossorigin="anonymous" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <!-- <img src="img/test.jpg " alt=""> -->
+            </div>
+            <!-- dynamic nav btn -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#it-works" class="nav__link nav__link-it-works">How it works</a></li>
+                    <li class="nav__item"><a href="#sessions" class="nav__link nav__link-sessions">Sample sessions</a>
+                    </li>
+                    <li class="nav__item"><a href="#certificates" class="nav__link nav__link-about">Certificates</a>
+                    </li>
+                    <li class="nav__item"><a href="#guide" class="nav__link nav__link-guide">Program guide</a></li>
+                    <li class="nav__item"><a href="#timings" class="nav__link nav__link-timings">Timings</a></li>
+                    <li class="nav__item"><a href="#pricing" class="nav__link nav__link-pricing">Pricing</a></li>
+                    <li class="nav__item"><a href="#testimonials"
+                            class="nav__link nav__link-testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav__item"><a href="#team" class="nav__link nav__link-team">Our team</a></li>
+                    <li class="nav__item"><a href="#faq" class="nav__link nav__link-faq">FAQs</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link nav__link-blog">Blog</a></li>
+                    <button class='btn '>Apply now</button>
+                </ul>
+            </nav>
+        </div>    
+        <!-- <div class="header-cover">
+            <h3>Top Interns Blog</h1>
+                <h4>Read our latest articles on journeys, technology, design and loads more.</h2>
+        </div> -->
+        
+    </header>
+    <!-- blogs section -->
+    <section class="sc-blog" id="blog">
+        <!-- filter by category -->
+        <div class="category">
+            <ul class="category__list">
+                <li class="category__item"><a href="" class="category__link">All</a></li>
+                <li class="category__item"><a href="" class="category__link">Category 1</a></li>
+                <li class="category__item"><a href="" class="category__link">Category 2</a></li>
+                <li class="category__item"><a href="" class="category__link">Category 3</a></li>
+                <li class="category__item"><a href="" class="category__link">Category 4</a></li>
+                <li class="category__item"><a href="" class="category__link">Category 5</a></li>
+            </ul>
+        </div>
+        <!-- blog component -->
+        <div class="container">
+            <div class="blog__list">
+                <div class="blog__item">
+                    <title>Showcase Your Thought Provoking Topics and Ideas</title>
+                    <img src="img/blog1.jpg" alt="blog1" class="img">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book.</p>
+                    "read more js to limit letters"
+                    time-to-read mins
+                    <div class="blog__interact">
+                        <i class="fa fa-comment"> 3</i>
+                        <span class="space" />
+                        <i class="fa fa-share-square"></i>
+                    </div>
+                <hr/>
+                </div>
+                <!-- other blog item -->
+                <div class="blog__item">
+                    <title>Showcase Your Thought Provoking Topics and Ideas</title>
+                    <img src="img/blog2-alex-knight.jpg" alt="blog2" class="img">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book.</p>
+                    "read more js to limit letters"
+                    <p>time-to-read mins</p>
+                    <div class="blog__interact">
+                        <i class="fa fa-comment"> 8</i>
+                        <span class="space" />
+                        <i class="fa fa-share-square"></i>
+                    </div>
+                    <hr/>
+                </div>
+            </div>
+        </div>
+        <br/><br/>
+        <div class="show-more">
+            show more link with JS
+        </div>
+
+    </section>
+    <footer class="footer">
+        <dic class="container">
+            <div class="social__links">
+                <h5>Follow us</h5>
+                <ul class="social-list">
+                    <li class="social-list__item"><a href="https://www.facebook/Topinterns" class="social-list__link">
+                            <i class="fab fa-facebook"></i>
+                        </a></li>
+                    <li class="social-list__item"><a href="htttps://twitter.com/Topinterns" class="social-list__link">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li class="social-list__item"><a href="https://www.linkedin/company/top-intern/"
+                            class="social-list__link">
+                            <i class="fab fa-linkedin"></i>
+                        </a></li>
+                    <li class="social-list__item"><a href="htttps://www.instagram.com/topinterns"
+                            class="social-list__link">
+                            <i class="fab fa-instagram"></i>
+                        </a></li>
+                    <li class="social-list__item"><a href="https://www.youtube.com/channel/UCR3PG0xLNS-vn1B6NLK8LZw"
+                            class="social-list__link">
+                            <i class="fab fa-youtube"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2021 ©
+                    <a href="https://topinterns.io">
+                        TopInterns.io
+                    </a>
+                </p>
+            </div>
+            </div>
+    </footer>
+    <script src="js/indexjs.js"></script>
+</body>
+
+</html>
